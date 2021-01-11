@@ -10,7 +10,7 @@
 
 ### 缓存
 #### redis
-[redis](../redis.md)
+[redis](https://github.com/friendship316/Java_interview/blob/main/Java%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/redis.md)
 
 ### 消息队列
 
