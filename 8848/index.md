@@ -3,7 +3,7 @@
 
 目标8848，更高处遇见！
 
-备注：fork仓库同步本仓库内容方法：https://www.cnblogs.com/hzhhhbb/p/11488861.html
+备注：fork仓库同步本仓库内容：https://www.cnblogs.com/hzhhhbb/p/11488861.html
 
 ### Java基础
 
