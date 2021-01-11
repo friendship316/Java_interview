@@ -14,7 +14,7 @@
 ### 数据库
 
 ### Redis
-[链接](https://github.com/friendship316/Java_interview/blob/main/8848/redis.md)
+[写不下的另开文件然后上链接](https://github.com/friendship316/Java_interview/blob/main/8848/redis.md)
 
 ### 消息队列
 #### 1、面试常问
