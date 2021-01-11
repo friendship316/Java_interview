@@ -9,6 +9,7 @@
 - SequenceDiagram 生成调用图
 - mybatisx
 - GenerateAllSetter
+- codota 代码提示
 
 # 常用工具-mac
 
