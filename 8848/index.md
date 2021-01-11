@@ -1,3 +1,6 @@
+### 前言
+合抱之木，生于毫末；九层之台，bai起于垒土；千里之行，始于足下。
+
 备注：fork仓库同步本仓库内容方法：https://www.cnblogs.com/hzhhhbb/p/11488861.html
 
 ### Java基础
