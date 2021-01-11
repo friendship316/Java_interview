@@ -13,8 +13,7 @@
 
 ### 数据库
 
-### 缓存
-#### redis
+### Redis
 [链接](https://github.com/friendship316/Java_interview/blob/main/8848/redis.md)
 
 ### 消息队列
