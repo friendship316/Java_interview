@@ -1,4 +1,5 @@
-备注：fork仓库同步方法：https://www.cnblogs.com/hzhhhbb/p/11488861.html
+备注：fork仓库同步本仓库内容方法：https://www.cnblogs.com/hzhhhbb/p/11488861.html
+
 ### Java基础
 
 ### 并发问题
