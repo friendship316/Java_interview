@@ -14,8 +14,7 @@
 ### 数据库
 
 ### 缓存
-#### redis
-[redis](https://github.com/friendship316/Java_interview/blob/main/8848/redis.md)
+#### [redis](https://github.com/friendship316/Java_interview/blob/main/8848/redis.md)
 
 ### 消息队列
 #### 1、面试常问
