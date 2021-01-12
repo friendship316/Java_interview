@@ -5,7 +5,7 @@
 
 ### 消费者负载均衡原理
 
-消费者启动之后，向其订阅的topic下其中一台broker（从NameServer获取到的broker列表中的第一台）发送请求获取到同一个consumeGroup的所有consumer的ID列表，然后根据策略，计算自己应该分配到哪几个MessageQueue。
+消费者负载均衡是在消费端（即业务代码的机器）进行的。消费者启动之后，向其订阅的topic下其中一台broker（从NameServer获取到的broker列表中的第一台）发送请求获取到同一个consumeGroup的所有consumer的ID列表，然后根据策略，计算自己应该分配到哪几个MessageQueue。
 
 以平均分配为例：
 
