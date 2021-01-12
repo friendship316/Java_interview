@@ -27,7 +27,7 @@
 #### RocketMq
 - 存储结构
 
-[rocketMq结构](https://github.com/friendship316/Java_interview/blob/main/8848/pictures/rocketMq/RocketMq%E7%BB%93%E6%9E%84.jpg)
+![rocketMq结构](https://github.com/friendship316/Java_interview/blob/main/8848/pictures/rocketMq/RocketMq%E7%BB%93%E6%9E%84.jpg)
 
 - 消费者负载均衡原理
 
