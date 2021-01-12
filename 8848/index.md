@@ -27,7 +27,8 @@
 #### RocketMq
 - 存储结构
 
-巴拉巴拉
+[rocketMq结构](https://github.com/friendship316/Java_interview/blob/main/8848/pictures/rocketMq/RocketMq%E7%BB%93%E6%9E%84.jpg)
+
 - 消费者负载均衡原理
 
 消费者启动之后，向其订阅的topic下其中一台broker（从NameServer获取到的broker列表中的第一台）发送请求获取到同一个consumeGroup的所有consumer的ID列表，然后根据策略，计算自己应该分配到哪几个MessageQueue。
