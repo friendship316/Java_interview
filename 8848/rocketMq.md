@@ -21,8 +21,6 @@ Producer端在发送消息的时候，会先根据Topic找到指定的TopicPubli
 
 先对Topic下的消息消费队列、消费者Id排序，然后用消息队列分配策略算法（默认为：消息队列的平均分配算法），计算出待拉取的消息队列。这里的平均分配算法，类似于分页的算法，将所有MessageQueue排好序类似于记录，将所有消费端Consumer排好序类似页数，并求出每一页需要包含的平均size和每个页面记录的范围range，最后遍历整个range而计算出当前Consumer端应该分配到的记录（这里即为：MessageQueue）。
 
-每一种算法策略详情可参考：[RocketMQ-负载均衡](https://blog.csdn.net/mxlmxlmxl33/article/details/85949429)
-
 ### 事务消息原理
 
 ### 事务消息half如何做到对用户（消费者）不可见的？
