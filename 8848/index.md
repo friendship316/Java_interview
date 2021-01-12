@@ -24,7 +24,7 @@
 [写不下的另开文件然后上链接](https://github.com/friendship316/Java_interview/blob/main/8848/redis.md)
 
 ### 消息队列
-#### RocketMq
+#### [RocketMq](https://github.com/friendship316/Java_interview/blob/main/8848/rocketMq.md)
 
 #### 1、面试常问
 #### 2、扩展文章
