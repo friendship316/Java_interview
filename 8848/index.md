@@ -20,11 +20,8 @@
 - #### 一级缓存和二级缓存，其实现、设计模式、影响范围
 - #### 插件原理，代理的切入点
 
-### Spring框架
-- #### Spring IOC过程，bean创建的整个生命周期
-- #### Spring AOP过程，创建代理的两个时机，事务原理
-- #### Spring 循环依赖，三级缓存
-- #### Spring 接入Mybatis的巧妙设计
+### [Spring框架](https://github.com/friendship316/Java_interview/blob/main/8848/Spring.md)
+
 
 ### 数据库
 
