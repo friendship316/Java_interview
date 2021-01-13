@@ -8,6 +8,8 @@
 - [事务消息half如何做到对用户（消费者）不可见的？](#事务消息half如何做到对用户（消费者）不可见的？)
 - [RocketMQ中的零拷贝](#RocketMQ中的零拷贝)
 - [RocketMQ中Netty的使用](#RocketMQ中Netty的使用)
+- [面试常问](#面试常问)
+- [扩展文章](#扩展文章)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -45,3 +47,10 @@ Producer端在发送消息的时候，会先根据Topic找到指定的TopicPubli
 ### RocketMQ中的零拷贝
 
 ### RocketMQ中Netty的使用
+
+
+### 面试常问
+### 扩展文章
+[Kafka和RocketMQ底层存储之那些你不知道的事](https://mp.weixin.qq.com/s/BCIHy934BHarqOFPYtmaSw)
+
+[记一次 RocketMQ 消息丢失的修复实践](https://mp.weixin.qq.com/s/XxZX0xT-ZbGVVJv5xYa4dg)
