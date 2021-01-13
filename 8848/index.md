@@ -33,6 +33,8 @@
 
 ### 消息队列
 #### [RocketMq](https://github.com/friendship316/Java_interview/blob/main/8848/rocketMq.md)
+- [存储结构](https://github.com/friendship316/Java_interview/blob/main/8848/rocketMq.md#存储结构)
+- [RocketMQ中Netty的使用](https://github.com/friendship316/Java_interview/blob/main/8848/rocketMq.md#RocketMQ中Netty的使用)
 
 #### 1、面试常问
 #### 2、扩展文章
