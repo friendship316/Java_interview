@@ -3,7 +3,7 @@
 
 目标8848，更高处遇见！
 
-备注：fork仓库同步本仓库内容方法：https://www.cnblogs.com/hzhhhbb/p/11488861.html
+备注：fork仓库同步本仓库内容：https://www.cnblogs.com/hzhhhbb/p/11488861.html
 
 ### Java基础
 
@@ -16,7 +16,12 @@
 
 ### JVM
 
-### spring框架
+### Mybatis
+- #### 一级缓存和二级缓存，其实现、设计模式、影响范围
+- #### 插件原理，代理的切入点
+
+### [Spring框架](https://github.com/friendship316/Java_interview/blob/main/8848/Spring.md)
+
 
 ### 数据库
 
@@ -24,12 +29,7 @@
 [写不下的另开文件然后上链接](https://github.com/friendship316/Java_interview/blob/main/8848/redis.md)
 
 ### 消息队列
-#### 1、面试常问
-#### 2、扩展文章
-[Kafka和RocketMQ底层存储之那些你不知道的事](https://mp.weixin.qq.com/s/BCIHy934BHarqOFPYtmaSw)
-
-[记一次 RocketMQ 消息丢失的修复实践](https://mp.weixin.qq.com/s/XxZX0xT-ZbGVVJv5xYa4dg)
-
+#### [RocketMq](https://github.com/friendship316/Java_interview/blob/main/8848/rocketMq.md)
 ### ZK
 
 ### Netty
