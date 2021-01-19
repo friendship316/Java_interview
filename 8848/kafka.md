@@ -13,3 +13,5 @@
 每个consumer会将自己消费分区的offset提交保存到broker的_consumer_offset_xx中。_consumer_offset_xx是kafka创建的内部分区，默认是50个。
 根据消费者组的Id进行hash然后对_consumer_offset_xx的个数取模，就知道应该放在哪个文件中。所以offset是以consumerGroup为单位存储的。
 _consumer_offset_xx中存放的是键值对，键是consumerGroupId+topic+消费的分区号，值是offset。
+
+### Rebalance机制
