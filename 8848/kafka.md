@@ -15,3 +15,12 @@
 _consumer_offset_xx中存放的是键值对，键是consumerGroupId+topic+消费的分区号，值是offset。
 
 ### Rebalance机制
+#### 策略
+- range模式 大概和rockertMQ默认的消费端负载均衡类似，就是假设有0-9十个partition，3个consumer，每个consumer各自分配一段分区，可能是第一个consumer是0-3号partition，第二个consumer是4-6，第三个consumer是7-9;
+- round-robin 轮询
+- sticky 初始的时候跟轮询类似，但是后面发生变动重新分配的时候，需要尽可能保持原有分配不变，并保持重新分配尽可能均匀
+
+#### 过程
+- 先选出服务端组长和消费端组长，其中服务端组长由某分区某个组保存offset分区的leader那台机器担任（选择方式没太明白），消费端组长由服务端组长指定
+- 消费端组长指定负载均衡策略之后同步给服务端组长
+- 服务端组长会在与消费者心跳通讯的时候将变化的负载均衡策略同步过去
