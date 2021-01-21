@@ -24,3 +24,11 @@ _consumer_offset_xx中存放的是键值对，键是consumerGroupId+topic+消费
 - 先选出服务端组长和消费端组长，其中服务端组长由某分区某个组保存offset分区的leader那台机器担任（选择方式没太明白），消费端组长由服务端组长指定
 - 消费端组长指定负载均衡策略之后同步给服务端组长
 - 服务端组长会在与消费者心跳通讯的时候将变化的负载均衡策略同步过去
+
+### Kafka与RocketMq的区别
+#### 功能区别
+- RocketMq支持延时队列，kafka不支持
+- RocketMq没有主动的消息批量压缩，kafka有
+#### 设计区别
+- 整体高可用架构类似。但是RocketMq以broker分主从，Kafka以partition分主从。
+- rocketMq的数据存储与kafka有较大不同。kafka针对不同的topic的每个partition都有单独的commitLog，但是rocketMq一个broker只有一个commitLog。两者都存在对应的commitLog的多个索引。
