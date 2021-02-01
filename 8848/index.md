@@ -28,6 +28,9 @@
 ### Redis
 [写不下的另开文件然后上链接](https://github.com/friendship316/Java_interview/blob/main/8848/redis.md)
 
+### Mongdb
+了解即可
+
 ### MySQL
 [主从延迟分析及解决方案](http://note.youdao.com/noteshare?id=dc806740920ebca771dbe6a57bda8820&sub=8A11E924EB2245EF94E08D24EFF7466B)
 
