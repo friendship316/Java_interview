@@ -31,7 +31,7 @@
 ### Mongdb
 了解即可
 
-### MySQL
+### [MySQL](https://github.com/friendship316/Java_interview/blob/main/8848/mysql.md)
 [主从延迟分析及解决方案](http://note.youdao.com/noteshare?id=dc806740920ebca771dbe6a57bda8820&sub=8A11E924EB2245EF94E08D24EFF7466B)
 
 ### 消息队列
