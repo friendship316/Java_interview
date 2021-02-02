@@ -9,5 +9,5 @@
 >- 从库会显示IO thread和Sql thread是running状态，其中IO thread是接收主库传来的binlog数据写入relay-log，Sql thread是将relay-log数据转成SQL写入从库。
 >- 可以通过观察从库的Master_Log_File以及Read_Master_Log_Pos是否与主库一致来判断是否搭建成功
 
-在主库中开启relay-log并填写从库的用户名密码，再开启从库的开启replication slave的权限，即可使两个库互为主从
+在主库中开启relay-log并填写从库的用户名密码，再开启从库的replication slave的权限，即可使两个库互为主从
 #### 5.6引入的GTID集群方式
