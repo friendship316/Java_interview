@@ -16,7 +16,7 @@
 
 ### 存储结构
 结构如下：
-![rocketMq结构](https://github.com/friendship316/Java_interview/blob/main/8848/pictures/rocketMq/RocketMq%E7%BB%93%E6%9E%84.jpg)
+![rocketMq结构](pictures/rocketMq/RocketMq%E7%BB%93%E6%9E%84.jpg)
 其中ConsumerQueue等价于后面MessageQueue
 
 ### 延时队列实现原理

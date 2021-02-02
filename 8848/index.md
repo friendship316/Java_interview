@@ -20,24 +20,24 @@
 - #### 一级缓存和二级缓存，其实现、设计模式、影响范围
 - #### 插件原理，代理的切入点
 
-### [Spring框架](https://github.com/friendship316/Java_interview/blob/main/8848/Spring.md)
+### [Spring框架](Spring.md)
 
 
 ### 数据库
 
 ### Redis
-[写不下的另开文件然后上链接](https://github.com/friendship316/Java_interview/blob/main/8848/redis.md)
+[写不下的另开文件然后上链接](redis.md)
 
 ### Mongdb
 了解即可
 
-### [MySQL](https://github.com/friendship316/Java_interview/blob/main/8848/mysql.md)
+### [MySQL](mysql.md)
 [主从延迟分析及解决方案](http://note.youdao.com/noteshare?id=dc806740920ebca771dbe6a57bda8820&sub=8A11E924EB2245EF94E08D24EFF7466B)
 
 ### 消息队列
 #### RabbitMq
-#### [RocketMq](https://github.com/friendship316/Java_interview/blob/main/8848/rocketMq.md)
-#### [kafka](https://github.com/friendship316/Java_interview/blob/main/8848/kafka.md)
+#### [RocketMq](rocketMq.md)
+#### [kafka](kafka.md)
 ### ZK
 
 ### Netty
