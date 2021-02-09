@@ -24,8 +24,10 @@
   ForkLift
 ### 多屏幕切换：
   CatchMouse
-### navicat破解
+### navicat破解：
   https://www.cnblogs.com/lyfstorm/p/11123159.html
+### 开源数据库连接：
+  dbeaver
 
 
 
